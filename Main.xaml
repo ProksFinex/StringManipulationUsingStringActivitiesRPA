@@ -137,7 +137,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:TextToLeftRight TextToLeft="{x:Null}" DisplayName="Text to Left/Right" FullText="[ExtractedData]" sap:VirtualizedContainerService.HintSize="416,304" sap2010:WorkflowViewState.IdRef="TextToLeftRight_3" Separator="Last Name:" SeparatorKey="Custom" TextToRight="[strText]" />
-      <ui:TextToLeftRight TextToRight="{x:Null}" CustomSeparatorEnabled="False" DisplayName="Text to Left/Right" FullText="[strText]" sap:VirtualizedContainerService.HintSize="416,271" sap2010:WorkflowViewState.IdRef="TextToLeftRight_4" Separator="&#xD;&#xA;" SeparatorKey="NewLine" TextToLeft="[strLastName]" />
+      <ui:TextToLeftRight TextToRight="{x:Null}" CustomSeparatorEnabled="False" DisplayName="Text to Left/Right" FullText="[strText]" sap:VirtualizedContainerService.HintSize="416,271" sap2010:WorkflowViewState.IdRef="TextToLeftRight_4" Separator="&#xA;" SeparatorKey="NewLine" TextToLeft="[strLastName]" />
       <ui:ModifyText DisplayName="Modify Text" sap:VirtualizedContainerService.HintSize="416,270" sap2010:WorkflowViewState.IdRef="ModifyText_2" OutputText="[strLastName]" SourceText="[strLastName]">
         <ui:ModifyText.Body>
           <ActivityAction>

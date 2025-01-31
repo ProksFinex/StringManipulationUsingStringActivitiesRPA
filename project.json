@@ -4,11 +4,8 @@
   "description": "Extract text information from a template file and use it to fill in the placeholder text in a string using string activities.",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.24.3]",
-    "UiPath.Mail.Activities": "[1.24.2]",
     "UiPath.System.Activities": "[24.10.6]",
-    "UiPath.Testing.Activities": "[24.10.3]",
-    "UiPath.UIAutomation.Activities": "[24.10.10]"
+    "UiPath.Testing.Activities": "[24.10.3]"
   },
   "webServices": [],
   "entitiesStores": [],
